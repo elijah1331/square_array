@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  newarr = []
+  array.each do |index|
+    square = index * index
+    newarr << square
+  end
+  newarr
+ 
 end
